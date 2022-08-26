@@ -1,1 +1,4 @@
-# sfmc-env
+# Handle ENV vars on SFMC
+
+## INSTALL 
+
