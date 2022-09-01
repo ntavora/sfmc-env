@@ -6,7 +6,7 @@ On cloud Pages Include this snippet
    >%%=TreatAsContent(HTTPGet('https://raw.githubusercontent.com/devsutd/sfmc/main/handleEnv.js'))=%% 
 
 After you include the snippet you should Initialize an instace of the Enviroment object with the env and the project Name.
-<code><!-- SFMC LOGGER V 1.0 --> <br>
+```<!-- SFMC LOGGER V 1.0 --> <br>
 %%=TreatAsContent(HTTPGet('https://raw.githubusercontent.com/devsutd/sfmc/main/handleEnv.js'))=%% <br>
 <script runat="server">  <br>
   try{<br>
@@ -16,7 +16,7 @@ After you include the snippet you should Initialize an instace of the Enviroment
   catch(ex){<br>
     Write(Stringify(ex))<br>
   }<br>
-</script><br></code>
+</script><br>```
 
 
 After the initialization, you should publish and open the page.
