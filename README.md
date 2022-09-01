@@ -7,16 +7,16 @@ On cloud Pages Include this snippet
 
 After you include the snippet you should Initialize an instace of the Enviroment object with the env and the project Name.
 ```<!-- SFMC LOGGER V 1.0 --> <br>
-%%=TreatAsContent(HTTPGet('https://raw.githubusercontent.com/devsutd/sfmc/main/handleEnv.js'))=%% <br>
-<script runat="server">  <br>
-  try{<br>
-    var process = Enviroment('Dev',"Project1");<br>
+%%=TreatAsContent(HTTPGet('https://raw.githubusercontent.com/devsutd/sfmc/main/handleEnv.js'))=%% 
+<script runat="server">  
+  try{
+    var process = Enviroment('Dev',"Project1");
    
   }<br>
-  catch(ex){<br>
-    Write(Stringify(ex))<br>
-  }<br>
-</script><br>```
+  catch(ex){
+    Write(Stringify(ex))
+  }
+</script>```
 
 
 After the initialization, you should publish and open the page.
