@@ -16,7 +16,8 @@ After you include the snippet you should Initialize an instace of the Enviroment
   catch(ex){
     Write(Stringify(ex))
   }
-</script>```
+</script>
+```
 
 
 After the initialization, you should publish and open the page.
