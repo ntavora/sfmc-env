@@ -1,7 +1,7 @@
 <script runat="server" language="JavaScript">
   Platform.Load("core", "1.1.1");
   try{
-    function Enviroment(enviroment) { 
+    function Enviroment(enviroment,proyectName) { 
       // init
       var envVars = _init(enviroment);
       var service = {
@@ -9,9 +9,9 @@
       };
             
       return service;
-      function _init(enviroment) {
+      function _init(enviroment,proyectName) {
         var env_vars = {};
-        var deName= "Enviroment"
+        var deName= proyectName+"_Enviroment"
         var filtro = {
           Property: "Name",
           SimpleOperator: "equals",
