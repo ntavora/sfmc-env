@@ -1,4 +1,4 @@
-# Handle ENV vars on SFMC
+# Handle Enviroment vars on SFMC
 
 ## INSTALL 
 
