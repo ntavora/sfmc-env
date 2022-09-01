@@ -25,5 +25,9 @@ After the initialization, you should publish and open the page.
 
 Go to dataextensions > Project1 > Project1_Enviroment and load the Enviroment variables that you need.
 
-For access to the env vars you should do something like this:  process.env.varName
+### How to access to the variables?
+
+Use the process.env.varname. Example
+
+>  Write(process.env.campaing)
 
