@@ -1,5 +1,4 @@
-<script runat="server" language="JavaScript">
-  Platform.Load("core", "1.1.1");
+
   try{
     function Enviroment(enviroment,proyectName) {
       // init
@@ -106,4 +105,3 @@
   catch(ex){
     Write(Stringify(ex));
   }
-</script>
