@@ -1,6 +1,3 @@
-<script runat="server" language="JavaScript">
-  Platform.Load("core", "1.1.1");
-  try{
     function Enviroment(enviroment,proyectName) {
       // init
       var envVars = _init(enviroment,proyectName);
@@ -99,11 +96,4 @@
         Folder.Add(newFolder);
         return getFolderByName(proyectName);
       }
-    }
-   // var process = Enviroment('Prod','Prueba1');
-    // Write(process.env.campaing);
-  }
-  catch(ex){
-    Write(Stringify(ex));
-  }
-</script>
+    }  
